@@ -1,0 +1,26 @@
+#include<iostream> 
+using namespace std;
+int main()
+{
+	int askcoode  = 0;
+	int a = 0 ;
+	char ch;
+	cout << "enter the sequence of symbols\n" ;
+	do
+	{
+		cin >> ch;
+		if (ch == '.')
+		{
+			cout << "finish, number of charachters: " << a ;
+		}
+		else {
+			askcoode = (int)ch;
+			cout <<  "askcoode    >>  " <<  askcoode << '\n';
+		}
+		if (ch >= '0' && ch <= '9') {
+			a++;
+		}
+	} while (true);
+	cin.get();
+	cin.get();
+}
