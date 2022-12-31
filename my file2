@@ -1,0 +1,23 @@
+#include<iostream> 
+using namespace std;
+double val = 0, s = 0;
+int main()
+{
+	cout << "enter the sequence of numbers\n";
+	while (s <= 100)
+	{
+		cin >> val;
+		if (val > 0 or val == 0) 
+		{
+			s = s + val;
+		}
+		else 
+		{
+			s = s + val * val;
+		}
+			
+	}
+	cout << "s=" << s;
+	cin.get();
+	cin.get();
+}
