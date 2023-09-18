@@ -1,0 +1,9 @@
+#elem {
+	background-size: 700px 700px;
+	background-position: right center;
+	background-image: url("bg.png");
+	background-clip: padding-box;
+	width: 2000px;
+	height: 7000px;
+	background-attachment: scroll;
+}
